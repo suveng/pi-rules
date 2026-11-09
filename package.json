@@ -1,0 +1,44 @@
+{
+  "name": "@suwenguang/pi-rules",
+  "version": "0.1.1",
+  "description": "pi-rules 的 AGENTS.md 裁剪版：read/edit/write 时按目录向上回溯注入 AGENTS.md，不加载 .cursor/.claude/.omo/.github 规则与用户级规则；零依赖，直接以 TS 源码运行。",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "keywords": [
+    "pi-package",
+    "pi-coding-agent",
+    "pi",
+    "rules",
+    "agents-md",
+    "extension"
+  ],
+  "homepage": "https://github.com/suveng/pi-rules#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suveng/pi-rules.git"
+  },
+  "bugs": {
+    "url": "https://github.com/suveng/pi-rules/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "files": [
+    "src",
+    "LICENSE",
+    "NOTICE",
+    "README.md"
+  ],
+  "pi": {
+    "extensions": [
+      "./src/index.ts"
+    ]
+  },
+  "scripts": {
+    "pack:check": "npm pack --dry-run"
+  }
+}
