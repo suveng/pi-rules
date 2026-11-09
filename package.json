@@ -1,6 +1,6 @@
 {
   "name": "@suwenguang/pi-rules",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "pi-rules 的 AGENTS.md 裁剪版：read/edit/write 时按目录向上回溯注入 AGENTS.md，不加载 .cursor/.claude/.omo/.github 规则与用户级规则；零依赖，直接以 TS 源码运行。",
   "type": "module",
   "license": "MIT",
